@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-13T13:38:01 IST" name="Default suite" finished-at="2022-01-13T13:39:38 IST" duration-ms="96531">
+    <groups>
+    </groups>
+    <test started-at="2022-01-13T13:38:01 IST" name="Default test" finished-at="2022-01-13T13:39:38 IST" duration-ms="96531">
+      <class name="ABPNews_live.LiveTv">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:ABPNews_live.LiveTv@70ed52de]" started-at="2022-01-13T13:38:01 IST" name="openApp" finished-at="2022-01-13T13:38:22 IST" duration-ms="20279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="homelivetv()[pri:0, instance:ABPNews_live.LiveTv@70ed52de]" started-at="2022-01-13T13:38:22 IST" name="homelivetv" finished-at="2022-01-13T13:39:34 IST" duration-ms="72415" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: Locator map: 
+- native content: "By.id: com.winit.starnews.hin:id/stream_quality_icon" 
+- html content: "by id or name "qualityicon""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-CJ1P4A3I', ip: '192.168.25.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.id: com.winit.starnews.hin:id/stream_quality_icon" 
+- html content: "by id or name "qualityicon""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-CJ1P4A3I', ip: '192.168.25.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:110)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:57)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$c0b591f0.click(<generated>)
+at com.POM.LiveTV.qualityic(LiveTV.java:44)
+at ABPNews_live.LiveTv.homelivetv(LiveTv.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homelivetv -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:ABPNews_live.LiveTv@70ed52de]" started-at="2022-01-13T13:39:36 IST" name="closeApp" finished-at="2022-01-13T13:39:38 IST" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- ABPNews_live.LiveTv -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
